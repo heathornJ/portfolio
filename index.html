@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body>
-		Hello sample test test
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Navigation-->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!--Home Section-->
+    <section id="home">
+      <h1>Welcome</h1>
+      <p>Description of webpage</p>
+    </section>
+
+    <!--About Section-->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Information about who I am and what I do</p>
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Describe overview of projects I've been apart of</p>
+
+      <article class="project">
+        <h3>Project 1</h3>
+        <figure>
+          <img />
+          <figcaption></figcaption>
+        </figure>
+      </article>
+
+      <article class="project">
+        <h3>Project 2</h3>
+        <figure>
+          <img />
+          <figcaption></figcaption>
+        </figure>
+      </article>
+
+      <article class="project">
+        <h3>Project 3</h3>
+        <figure>
+          <img />
+          <figcaption></figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you'd like to know more about my projects or enquire for work, please
+        contact me via:
+      </p>
+      <ul id="contact-methods">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/jamie-heathorn-458538268/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          Email: <a href="mailto:heathornj@gmail.com">heathornj@gmail.com</a>
+        </li>
+        <li>Phone: 07958654842</li>
+      </ul>
+      <p>Alternatively, you can contact me via the form below</p>
+      <form
+        class="contact-form"
+        action="mailto:heathornj@gmail.com"
+        method="post"
+        enctype
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea
+          type="text"
+          id="message"
+          name="message"
+          rows="4"
+          cols="20"
+          required
+        ></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </body>
 </html>
