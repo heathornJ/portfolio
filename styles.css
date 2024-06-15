@@ -1,13 +1,15 @@
 :root {
   --color1: #005569;
   --color2: #007c91;
-  --color3: #d98888;
+  --color3: #fdfdfd;
   --color4: white;
   --color5: white;
 
-  --Font-h1: "Calistoga";
+  --font-h1: "Trocchi";
   --font-heading: "Noto Serif";
   --font-body: "ABeeZee";
+
+  --project-width-desktop: 45em;
 }
 
 * {
@@ -18,11 +20,13 @@
 
 body {
   margin: 0;
+  background-color: var(--color3);
 }
 
 h1 {
-  font-family: "Calistoga";
+  font-family: var(--font-h1);
   font-size: 2em;
+  font-weight: 300;
   color: black;
 }
 
@@ -40,8 +44,14 @@ h3 {
 
 p,
 li,
-figcaption {
+figcaption,
+a {
   font-family: var(--font-body);
+}
+
+a,
+#contact strong {
+  font-size: inherit;
 }
 
 /* Navigation Styles */
@@ -54,6 +64,7 @@ figcaption {
   height: auto;
   padding: 1em 0;
   background-color: var(--color2);
+  z-index: 99;
 }
 
 ul > li > a {
@@ -97,8 +108,8 @@ ul > li > a:hover {
 
 #home > img {
   height: 50vw;
-
   padding: 0 2.5em;
+  filter: drop-shadow(0.2em 0.2em #007c9115);
 }
 
 #welcome-container {
@@ -198,8 +209,22 @@ ul > li > a:hover {
   color: var(--color4);
 }
 
+#contact-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#contact li {
+  list-style-type: none;
+}
+
+#contact ul {
+  padding-left: 0;
+}
+
 .contact-form {
-  width: 90%;
+  width: 100%;
   margin: 1em auto;
   padding: 1em 2em;
   background-color: var(--color1);
@@ -210,6 +235,7 @@ ul > li > a:hover {
   display: block;
   text-align: left;
   color: white;
+  font-family: var(--font-body);
 }
 
 .contact-form input,
@@ -219,6 +245,10 @@ ul > li > a:hover {
   border: 1px solid black;
   border-radius: 5px;
   text-align: left;
+}
+
+.contact-form input {
+  min-height: 2em;
 }
 
 .contact-form textarea {
@@ -245,12 +275,13 @@ ul > li > a:hover {
   }
 
   figcaption,
-  p {
+  p,
+  li {
     font-size: 1.5em;
   }
 
   #navbar > ul {
-    width: 300px;
+    max-width: 400px;
   }
 
   #navbar > ul::after {
@@ -275,6 +306,7 @@ ul > li > a:hover {
     min-height: 475px;
     padding: 0;
     border-radius: 50%;
+    filter: drop-shadow(0.5em 0.5em #007c9115);
   }
 
   #welcome-container {
@@ -306,15 +338,20 @@ ul > li > a:hover {
   }
 
   .project {
-    width: 35em;
+    max-width: none;
+    width: var(--project-width-desktop);
     margin: 2em 3em;
+  }
+
+  .project img {
+    max-width: 700px;
+    max-height: 700px;
   }
 
   #project-container::after {
     content: "";
     margin: 2em 3em;
-    max-width: 30em;
-    width: 35em;
+    width: var(--project-width-desktop);
   }
 
   #contact-section-container {
@@ -328,16 +365,22 @@ ul > li > a:hover {
   }
 
   #contact p {
-    text-align: center;
+    text-align: left;
     max-width: 600px;
+    margin: auto auto;
+  }
+
+  #text-container {
+    padding-top: 1em;
   }
 
   #contact li {
-    max-width: 300px;
+    max-width: 600px;
   }
 
   .contact-form {
     max-width: 620px;
     width: 50%;
+    margin: 0 0;
   }
 }
