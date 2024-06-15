@@ -9,7 +9,7 @@
   --font-heading: "Noto Serif";
   --font-body: "ABeeZee";
 
-  --project-width-desktop: 45em;
+  --project-width-desktop: 35vw;
 }
 
 * {
@@ -285,7 +285,7 @@ ul > li > a:hover {
   }
 
   #navbar img {
-    height: 7em;
+    height: 10vh;
   }
 
   #navbar > ul {
@@ -303,16 +303,16 @@ ul > li > a:hover {
   }
 
   #home {
-    height: 100vh;
-    min-height: 30em;
+    min-height: 100vh;
+    height: auto;
     justify-content: center;
     flex-wrap: nowrap;
   }
 
   #home > img {
-    max-height: 700px;
+    max-height: 70vh;
     min-height: 475px;
-    padding: 0;
+    padding: 2em 1em 2em 4em;
     border-radius: 50%;
     filter: drop-shadow(0.5em 0.5em #007c9115);
   }
@@ -348,17 +348,17 @@ ul > li > a:hover {
   .project {
     max-width: none;
     width: var(--project-width-desktop);
-    margin: 2em 3em;
+    margin: 2em 0.5em;
   }
 
   .project img {
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 25vw;
+    max-height: 25vw;
   }
 
   #project-container::after {
     content: "";
-    margin: 2em 3em;
+    margin: 2em 0.5em;
     width: var(--project-width-desktop);
   }
 
