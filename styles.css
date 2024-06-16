@@ -153,6 +153,15 @@ ul > li > a:hover {
   background-color: var(--color1);
 }
 
+.about-topic:hover{
+  filter: drop-shadow(5px 5px #00556975)
+}
+
+.about-topic:hover h3{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
 .about-topic h3,
 .about-topic p,
 #about h2,
@@ -163,8 +172,7 @@ ul > li > a:hover {
   color: var(--color5);
 }
 
-#projects h2,
-#projects p {
+#projects h2{
   color: black;
 }
 
@@ -182,12 +190,6 @@ ul > li > a:hover {
   margin-top: 1em;
 }
 
-.project p {
-  width: 80%;
-  margin: 1em auto;
-  text-align: left;
-}
-
 .project figure {
   margin: 0 auto 1em auto;
 }
@@ -201,6 +203,36 @@ ul > li > a:hover {
   max-width: 300px;
   max-height: 300px;
   width: 70%;
+  transition: filter 0.3s;
+}
+
+.image-container {
+  position: relative;
+  height:auto;
+  width: 100%;
+}
+
+p.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Offset for true centering */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  opacity: 0; /* Start with hidden text */
+  transition: opacity 0.3s; /* Smooth transition effect */
+  text-align: center;
+  width: auto;
+}
+
+.image-container:hover .overlay-text {
+  opacity: 1; /* Make the text visible on hover */
+}
+
+.image-container:hover img {
+  filter: blur(5px); /* Make the text visible on hover */
 }
 
 #contact {
@@ -281,7 +313,7 @@ ul > li > a:hover {
 
   figcaption,
   li {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   #navbar img {
