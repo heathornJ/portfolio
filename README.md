@@ -109,8 +109,10 @@ To confirm the website was functional, responsive, and had the correct styling.
 - The CSS file has passed CSS validity checks with W3C.
   ![A screenshot of the CSS validation test on "3C, showing a passed test with no warnings](./images/cssvalidation01.png)
 
-- The website has been tested for performance, accessibility, best practice, and SEO.
-<!--Show lighthouse performance test-->
+- The website has been tested for performance, accessibility, best practice, and SEO using [https://pagespeed.web.dev/](https://pagespeed.web.dev/).
+  - The errors within best practice come down to the use of "mailto:" on the contact form technically being http while the rest of the site is https.
+  - This was replaced with the use of [Formspree](https://formspree.io/)
+    ![A screenshot of the test, showing performance:99, accessibility:94, best practice:78, and SEO: 100](./images/pagespeedtest.png)
 
 ## Deployment
 
