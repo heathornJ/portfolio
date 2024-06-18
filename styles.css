@@ -288,7 +288,7 @@ p.overlay-text {
   min-height: 5em;
 }
 
-/* Desktop Styles */
+/* Larger Device Styles */
 @media (min-width: 769px) {
   body {
     max-width: 100%;
@@ -312,7 +312,7 @@ p.overlay-text {
     font-size: 1em;
   }
 
-  /*Desktop navbar styling*/
+  /*Navbar styling*/
   #navbar img {
     height: 10vh;
   }
@@ -325,14 +325,14 @@ p.overlay-text {
     display: none;
   }
 
-  /*Desktop general section styling*/
+  /*General section styling*/
   .page-section {
     width: 60%;
     margin: 0 auto;
     padding: 6em 0;
   }
 
-  /*Desktop home styling*/
+  /*Home styling*/
   #home {
     min-height: 100vh;
     height: auto;
@@ -352,7 +352,7 @@ p.overlay-text {
     max-width: 800px;
   }
 
-  /*Desktop about styling*/
+  /*About styling*/
   #about-section-container {
     min-height: 100vh;
   }
@@ -370,7 +370,7 @@ p.overlay-text {
     max-width: 40em;
   }
 
-  /*Desktop projects section styling*/
+  /*Projects section styling*/
   #projects-section-container {
     min-height: 60em;
   }
@@ -396,7 +396,7 @@ p.overlay-text {
     width: var(--project-width-desktop);
   }
 
-  /*Desktop contact section styling*/
+  /*Contact section styling*/
   #contact-section-container {
     height: auto;
   }
