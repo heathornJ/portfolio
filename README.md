@@ -96,8 +96,11 @@ To confirm the website was functional, responsive, and had the correct styling.
   - The webpage was also tested using Chrome on a Samsung Galaxy S22+:
     ![A screenshot of the webpage in a Chrome browser on a Samsung Galaxy S22+](./images/chrome03.jpg)
 
-- The website's responsiveness was tested using Media Genesis Responseve design checker [https://responsivedesignchecker.com/](https://responsivedesignchecker.com/)
-<!--Insert test screenshots here-->
+- The website's responsiveness was tested using Media Genesis Responsive design checker [https://responsivedesignchecker.com/](https://responsivedesignchecker.com/)
+  ![A screenshot of the Media Genesis Responsive design checker](./images/mediagenesis01.png)
+  ![A screenshot of the Media Genesis Responsive design checker](./images/mediagenesis02.png)
+  ![A screenshot of the Media Genesis Responsive design checker](./images/mediagenesis03.png)
+  ![A screenshot of the Media Genesis Responsive design checker](./images/mediagenesis04.png)
 
 - The HTML file has passed HTML validity checks with W3C, but had some 'Info' pointers about trailing slashes on self-closing tags. These were removed to prevent any possible negative interactions.
   ![A screenshot of the HTML validation test on W3C, showing a passed test with info warnings](./images/htmlvalidation01.png)
@@ -114,7 +117,8 @@ To confirm the website was functional, responsive, and had the correct styling.
 ### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: - In the GitHub repository, navigate to the Settings tab. - From the source section drop-down menu, select the Main Branch, then click "Save". - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  The live link can be found [here](https://heathornj.github.io/portfolio/)
+
+- The live link can be found [here](https://heathornj.github.io/portfolio/)
 
 ## Contact
 
