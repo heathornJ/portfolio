@@ -111,8 +111,9 @@ To confirm the website was functional, responsive, and had the correct styling.
 
 - The website has been tested for performance, accessibility, best practice, and SEO using [https://pagespeed.web.dev/](https://pagespeed.web.dev/).
   - The errors within best practice come down to the use of "mailto:" on the contact form technically being http while the rest of the site is https.
-  - This was replaced with the use of [Formspree](https://formspree.io/)
     ![A screenshot of the test, showing performance:99, accessibility:94, best practice:78, and SEO: 100](./images/pagespeedtest.png)
+  - This was replaced with the use of [Formspree](https://formspree.io/) in the contact form, resulting in a slightly decreased performance score, but a much higher best practice score.
+    ![A screenshot of the test, showing performance:93, accessibility:94, best practice:100, and SEO: 100](./images/pagespeedtest02.png)
 
 ## Deployment
 
@@ -133,3 +134,4 @@ Jamie Heathorn
   - Google image search for website portfolio designs [here](https://www.google.com/search?sca_esv=9808eceaba48aaa9&sca_upv=1&sxsrf=ADLYWIJbCg6fPuhZ5DqsPtKVSczhMar6gg:1718712512032&q=portfolio+website+ideas&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joQcoZ-0Q2Udkt2zEybT7HdcghX_cULItgDQ-ic0tx97HU0om4eiEoFQ7LkCUAIN0k5ckfuXbaYID2cdV_OmGsEy_vSEauNj1_Mmv2J6NjBnVEvjRAhAzO6zw58Qt0lVtZUf36m&sa=X&ved=2ahUKEwiduoCGj-WGAxU2QEEAHYxvCi8QtKgLegQIEhAB&biw=1590&bih=747&dpr=1.2)
 - Media
   - Graphic logo created using [https://www.adobe.com/express/](https://www.adobe.com/express/)
+  - Favicon created using [https://favicon.io/favicon-generator/](https://favicon.io/favicon-generator/)
