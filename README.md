@@ -64,7 +64,7 @@ The portfolio webpage provides information about myself and the projects I've cr
 - The fourth section is the Contact section. This displays text and links that will allow the visitor to contact me.
 
   - There is also a contact form that allows the user to send an email to me.
-    ![A screenshot of the contact section and contact form](./images/contactsection.png)<!--Insert image of contact section-->
+    ![A screenshot of the contact section and contact form](./images/contactsection.png)
 
 ## Technologies Used
 
@@ -114,7 +114,7 @@ To confirm the website was functional, responsive, and had the correct styling.
 ### Deployment to GitHub Pages
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: - In the GitHub repository, navigate to the Settings tab. - From the source section drop-down menu, select the Main Branch, then click "Save". - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  The live link can be found [here]().<!--Link to the live website page on here-->
+  The live link can be found [here](https://heathornj.github.io/portfolio/)
 
 ## Contact
 
@@ -124,6 +124,6 @@ Jamie Heathorn
 ## Credits
 
 - Inspiration:
-  - Google image search for website portfolio designs [here]
+  - Google image search for website portfolio designs [here](https://www.google.com/search?sca_esv=9808eceaba48aaa9&sca_upv=1&sxsrf=ADLYWIJbCg6fPuhZ5DqsPtKVSczhMar6gg:1718712512032&q=portfolio+website+ideas&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joQcoZ-0Q2Udkt2zEybT7HdcghX_cULItgDQ-ic0tx97HU0om4eiEoFQ7LkCUAIN0k5ckfuXbaYID2cdV_OmGsEy_vSEauNj1_Mmv2J6NjBnVEvjRAhAzO6zw58Qt0lVtZUf36m&sa=X&ved=2ahUKEwiduoCGj-WGAxU2QEEAHYxvCi8QtKgLegQIEhAB&biw=1590&bih=747&dpr=1.2)
 - Media
   - Graphic logo created using [https://www.adobe.com/express/](https://www.adobe.com/express/)
