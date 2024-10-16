@@ -51,7 +51,7 @@ The portfolio webpage provides information about myself and the projects I've cr
 
     ![A screenshot of the changes to the about article when hovered](./images/abouthover.png)
 
-- The third section is the Projects section. This displays various projects that I have worked on. Currently, it houses templates as there are no projects currently available.
+- The third section is the Projects section. This displays various projects that I have worked on. Currently, it houses 2 projects, and a project template.
 
   ![A screenshot of the projects section](./images/projectssection.png)
 
